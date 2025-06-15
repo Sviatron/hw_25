@@ -1,0 +1,28 @@
+ul {
+    list-style: none;
+}
+.kat-list {
+  display: flex;
+  justify-content: center;
+}
+.kat-item {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.kat-item:nth-child(1) {
+  background-color: rgb(238, 34, 34);
+}
+.kat-item:nth-child(2) {
+  background-color: rgb(39, 98, 245);
+  position: relative;
+  left: -50px;
+  top: 150px;
+  z-index: 1;
+}
+.kat-item:nth-child(3) {
+  background-color: rgb(33, 165, 33);
+  position: relative;
+  left: -100px;
+  top: 300px;
+}
